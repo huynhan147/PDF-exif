@@ -1,0 +1,20 @@
+{  
+    "name": "huynhan147/pdf_exif",
+    "description": "Package for extracting information from PDF file",
+    "authors": [
+    {
+    "name": "Nguyen Phi Huy",
+    "email": "huyitptit2015@gmail.com"
+    }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^6"
+    },
+    "autoload": {
+    "psr-4": {
+        "ReadPDF\\" : "src/",
+        "ReadPDFTest\\": "tests/"
+    }
+    }
+}
